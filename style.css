@@ -1,0 +1,78 @@
+/* Primeira página */
+body {
+    background-color: #545454;
+}
+
+.titulo_principal {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.texto_regras {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 10% auto;
+}
+
+.jogar {
+    display: block;
+    text-align: center;
+    margin:  1% auto;
+    background-color: #737373;
+    width: 15%;
+    height: 50px;
+    border-radius: 20px 20px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none; /* retira o sublinhado */
+}
+
+/* Segunda página */
+#mensagem{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 7%;
+    text-align: justify;
+}
+
+#icone_i {
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#text_input {
+    text-align: center;
+    display: block;
+    margin:  auto;
+    background-color: #737373;
+    width: 15%;
+    height: 50px;
+    border-radius: 20px 20px;
+    font-size: 20px;
+}
+
+
+#confirmar {
+    display: flex;
+    text-align: center;
+    margin:  1% auto;
+}
+
+/* rodapé */
+.copyright {
+    color: white;
+}
+.icones_header{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.header {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
